@@ -22,10 +22,6 @@ export default {
 </script>
 
 <style>
-    .new-task {
-        margin: 35px;
-    }
-
     .form-element {
         outline: none;
         font-size: 2rem;

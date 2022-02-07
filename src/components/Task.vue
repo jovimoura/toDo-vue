@@ -25,8 +25,8 @@ export default {
     .task {
         position: relative;
         box-sizing: border-box;
-        width: 350px;
-        height: 150px;
+        width: 25rem;
+        height: 10rem;
         padding: 10px;
         border-radius: 8px;
         font-size: 2rem;
@@ -69,5 +69,12 @@ export default {
         border-radius: 10px;
         display: flex;
         justify-content: center;
+    }
+
+    @media(max-width:768px) {
+        .task {
+            width: 18rem;
+            height: 8rem;
+        }
     }
 </style>

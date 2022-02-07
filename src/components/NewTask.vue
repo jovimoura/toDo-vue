@@ -35,7 +35,7 @@ export default {
     }
 
     input.form-element {
-        width: 72%;
+        width: 80%;
         background: #FFF2;
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
@@ -46,5 +46,15 @@ export default {
         background-color: #2196F3;
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
+    }
+
+    @media(max-width:768px) {
+        .new-task {
+            width: auto;
+        }
+
+        input.form-element {
+            width: 75%;
+        }
     }
 </style>

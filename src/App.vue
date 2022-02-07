@@ -81,7 +81,6 @@ export default {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 100vh;
 	}
 
 	#app h1 {
@@ -103,4 +102,11 @@ export default {
 	a:active {
 		text-decoration: underline;
 	}
+
+	@media(max-width:768px) {
+        #app {
+			height: auto;
+			width: 100%;
+		}
+    }
 </style>

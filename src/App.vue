@@ -7,7 +7,7 @@
 			@taskDeleted="deleteTask"
 			@stateTaskChanged="toggleStateChange" 
 		/>
-		<footer style="margin-top:100px">Feito por <a href="https://jovimoura.github.io/portfolio/" class="github" target="_blank">João Victor Moura</a></footer>
+		<footer style="margin-top:100px">Feito por <a href="https://portfolio-jovimoura.vercel.app/" class="github" target="_blank">João Victor Moura</a></footer>
 	</div>
 </template>
 
